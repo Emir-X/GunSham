@@ -1,0 +1,145 @@
+*{
+    margin: 0px 0px;
+     color: rgb(255, 255, 255);
+}
+.navbar{
+    padding-top: 20px;
+     padding-left: 20px;
+      padding-right: 20px;
+       padding-bottom: 20px;
+        width: 97.9%;
+         height: 150px;
+          background-color:#343232;
+           display: flex;
+            align-items: center;
+    
+}
+
+.logo
+{
+    margin-left: 130px;
+     height: 125px;
+      width: 130px;
+       justify-content: flex-start;
+}
+#logo
+{
+    width: 100%;
+     height: 100%;
+}
+.links ul{
+    float: right;
+     margin-left: 600px;
+}
+.links ul li{
+    list-style: none;
+     display:inline-block;
+      margin: 0 10px;
+       line-height: 1  0px;
+}
+.links ul li a{
+    color: whitesmoke;
+     text-decoration: none;
+      font-size: 20px;
+       padding: 6px 13px;
+        font-family: sans-serif;
+}
+.links ul li a.active,
+.links ul li a:hover{
+    background-color: rgb(187, 12, 12);
+     border-radius: 20px;
+}
+.body .b1
+{
+    padding-top: 50px;
+     padding-left: 20px;
+      padding-right: 20px;
+       
+        width: 97.9%;
+         height: 700px;
+          background-color:rgb(59, 59, 59);
+           align-items: center;   
+}
+.icerik
+{   
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    margin-left: 550px;
+}
+#gif
+{
+    width: 300px;
+    height: 300px;
+    pointer-events:none;
+}
+.content 
+{
+    display: flex; 
+     justify-content: space-between; 
+      flex-wrap: wrap; gap: 20px; 
+}
+.left-container, .right-container 
+{ 
+    display: flex;
+     flex-direction: column;
+      gap: 30px; 
+}
+.image-container 
+{   width: 300px; 
+     height: 200px; 
+      overflow: hidden;
+       border-radius: 10px;
+        transition: transform 0.3s ease; 
+} 
+.image-container img 
+{ 
+    width: 100%;
+     height: 100%;
+      object-fit: cover;
+       transition: transform 0.3s ease;
+} 
+.image-container:hover 
+{ 
+    transform: scale(1.05);   
+} 
+.image-container:hover img 
+{ 
+    transform: scale(1.1);
+}
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Sol ve sağ hizalama */
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px; /* Daha geniş bir padding */
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.image-container:hover .image-caption {
+    opacity: 1;
+}
+.text-container {
+    flex: 1;
+    margin-left: -520px;
+}
+
+.footer
+{
+    width: 1500px;
+    height: 150px;
+    background-color:#343232 ;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 70px;
+    margin-left: -20px;
+    margin-right: -12px;     
+
+}
+
+
+
